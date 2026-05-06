@@ -1,0 +1,29 @@
+# Keil MDK 编译产物
+*.o
+*.axf
+*.bin
+*.hex
+*.map
+*.lst
+*.lnp
+*.scvd
+*.dep
+*.crf
+*.bak
+*.log
+*.htm
+
+# Keil 配置临时文件
+*.uvguix.*
+*.uvoptx
+
+# 编译目录
+Objects/
+Listings/
+
+# JLink 日志
+*.JLinkLog
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
